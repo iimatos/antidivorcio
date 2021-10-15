@@ -12,15 +12,35 @@
     <meta name="theme-color" content="#FFB600">
     <meta name="description" content="Uma série de aulas online e gratuitas que vão restaurar o seu casamento e fortalecer os seus laços de família.">
     <meta name="keywords" content="A Restauração, Evento Online, Casamento Seguro, Religião, Relacionamento Forte, Família, Perdão, Amor, Manual do Anti Divórcio, Anti Divórcio">
-    <meta property="og:url" content="https://manualdoantidivorcio.com.br/" />
+    <meta property="og:url" content="https://manualdoantidivorcio.com.br/a-restauracao/inscricao.html" />
     <meta property="og:title" content="A Restauração" />
     <meta property="og:description" content="Uma série de aulas online e gratuitas que vão restaurar o seu casamento e fortalecer os seus laços de família." />
     <meta property="og:site_name" content="Manual do Anti Divórcio" />
-    <meta property="og:image" content="https://manualdoantidivorcio.com.br/assets/imgs/preview.jpg" />
+    <meta property="og:image" content="https://manualdoantidivorcio.com.br/a-restauracao/assets/imgs/preview.jpg" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pt-BR" />
     <link rel="icon" href="assets/imgs/favicon.svg" sizes="62x62" type="image/png">
     <title>A Restauração</title>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '918400068753509');
+        fbq('consent', 'revoke')
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=918400068753509&ev=PageView&noscript=1" /></noscript>
+    <!-- End Facebook Pixel Code -->
+
 </head>
 
 <body>
@@ -42,7 +62,7 @@
         </symbol>
     </svg>
 
-    <header class="header-inscricao">
+    <header class="header-inscricao" id="form-dobra">
         <div class="grid-box ">
             <div class="form-wrap">
                 <h1 class="title">A Restauração</h1>
@@ -60,8 +80,7 @@
                             </div>
                             <div class="mc-field-group input-group">
                                 <ul>
-                                    <li><input style="display: none;" type="checkbox" value="1" name="group[29793][1]" id="mce-group[29793]-29793-0" checked></li>
-                                    <li><input style="display: none;" type="checkbox" value="2" name="group[29793][2]" id="mce-group[29793]-29793-1" checked class="inscricao-page">
+                                    <li><input style="display: none;" type="radio" value="2" name="group[29793][2]" id="mce-group[29793]-29793-1" checked class="inscricao-page">
                                 </ul>
                             </div>
                             <div id="mce-responses" class="clear">
@@ -74,7 +93,7 @@
                     </form>
                     <div class="captura-form-date">
                         <svg>
-                            <use xlink:href="#calendar"></use>
+                            <use xlink:href="#calendar" title="Calendário"></use>
                         </svg>
                         <p class="text">De 1 a 4 de outubro no Instagram, às 21:20h.</p>
                     </div>
@@ -121,7 +140,7 @@
             <li class="aulas-list-item">
                 <div class="aulas-list-date">
                     <img loading="lazy" src="assets/imgs/aula2-captura-desktop.png" alt="Aula 02 - Banner">
-                    <p class="text">21:20h - 01/10</p>
+                    <p class="text">21:20h - 02/10</p>
                 </div>
                 <div class="text-list">
                     <p class="sub-title">Perdão e amor são decisões</p>
@@ -132,7 +151,7 @@
             <li class="aulas-list-item">
                 <div class="aulas-list-date">
                     <img loading="lazy" src="assets/imgs/aula3-captura-desktop.png" alt="Aula 03 - Banner">
-                    <p class="text">21:20h - 01/10</p>
+                    <p class="text">21:20h - 03/10</p>
                 </div>
                 <div class="text-list">
                     <p class="sub-title">Exercício: Deixar ir</p>
@@ -143,7 +162,7 @@
             <li class="aulas-list-item">
                 <div class="aulas-list-date">
                     <img loading="lazy" src="assets/imgs/aula4-captura-desktop.png" alt="Aula 04 - Banner">
-                    <p class="text">21:20h - 01/10</p>
+                    <p class="text">21:20h - 04/10</p>
                 </div>
                 <div class="text-list">
                     <p class="sub-title">Arrumando seu altar</p>
@@ -151,7 +170,7 @@
                 </div>
             </li>
 
-            <a href="#" class="btn">Quero Participar!</a>
+            <a href="#form-dobra" class="btn" data-scroll='scroll'>Quero Participar!</a>
         </ul>
     </section>
 
